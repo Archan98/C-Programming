@@ -499,7 +499,7 @@ top1:
     }
 top2:
     printf("\nEnter password : ");
-    scanf("%s", pass);
+    takepassword(pass);
     if (strcmp(pass, s.password))
     {
         printf("\nPassword doesn't match.\n");
